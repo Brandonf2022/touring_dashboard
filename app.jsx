@@ -8,8 +8,7 @@ import {GeoJsonLayer, ArcLayer} from '@deck.gl/layers';
 import {scaleQuantile} from 'd3-scale';
 
 // Source data GeoJSON
-const DATA_URL =
-  'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/arc/counties.json'; // eslint-disable-line
+const DATA_URL = './counties.json'; // eslint-disable-line
 
 export const inFlowColors = [
   [255, 255, 204],
@@ -32,12 +31,12 @@ export const outFlowColors = [
 ];
 
 const INITIAL_VIEW_STATE = {
-  longitude: -100,
-  latitude: 40.7,
-  zoom: 3,
+  longitude: 13,
+  latitude: 55,
+  zoom: 6,
   maxZoom: 15,
-  pitch: 30,
-  bearing: 30
+  pitch: 40,
+  bearing: 0
 };
 
 const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/positron-nolabels-gl-style/style.json';
