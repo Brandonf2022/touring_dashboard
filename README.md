@@ -1,4 +1,4 @@
-This is a minimal standalone version of the ArcLayer example
+This is a minimal standalone version of the LineLayer example
 on [deck.gl](http://deck.gl) website.
 
 ### Usage
@@ -16,10 +16,10 @@ npm start
 
 ### Data format
 
-Sample data is stored in [deck.gl Example Data](https://github.com/visgl/deck.gl-data/tree/master/examples/arc), showing county-to-county migration in the US. [Source](http://www.census.gov)
+Sample data is stored in [deck.gl Example Data](https://github.com/visgl/deck.gl-data/tree/master/examples/line), showing flight paths near the Heathrow Airport, captured via [the OpenSky Network](https://opensky-network.org/). [Airports data source](http://www.naturalearthdata.com/)
 
 To use your own data, check out
-the [documentation of ArcLayer](../../../docs/api-reference/layers/arc-layer.md).
+the [documentation of LineLayer](../../../docs/api-reference/layers/line-layer.md).
 
 ### Basemap
 
