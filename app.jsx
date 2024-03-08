@@ -10,7 +10,7 @@ const DATA_URL = {
   AIRPORTS:
     'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/line/airports.json', // eslint-disable-line
   FLIGHT_PATHS:
-    '/fagellecsv.json' // eslint-disable-line
+    'https://raw.githubusercontent.com/Brandonf2022/touring_dashboard/main/fagellecsv.json?token=GHSAT0AAAAAACM37NATT7C4RH5ZO2CLXHPSZPLJ3QQ' // eslint-disable-line
 };
 
 const INITIAL_VIEW_STATE = {
