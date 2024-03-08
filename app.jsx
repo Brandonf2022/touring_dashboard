@@ -10,7 +10,7 @@ const DATA_URL = {
   AIRPORTS:
     'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/line/airports.json', // eslint-disable-line
   FLIGHT_PATHS:
-    './fagellecsv.json' // eslint-disable-line
+    '/fagellecsv.json' // eslint-disable-line
 };
 
 const INITIAL_VIEW_STATE = {
