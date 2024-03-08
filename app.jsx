@@ -5,14 +5,14 @@ import maplibregl from 'maplibre-gl';
 import DeckGL from '@deck.gl/react';
 import {LineLayer, ScatterplotLayer} from '@deck.gl/layers';
 
-const githubToken = process.env.GITHUB_TOKEN;
+/*const githubToken = process.env.GITHUB_TOKEN;
 const git_url = `https://raw.githubusercontent.com/Brandonf2022/touring_dashboard/main/fagellecsv.json?token=${githubToken}`;
-
+*/
 // Source data CSV
 const DATA_URL = {
   AIRPORTS:
     'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/line/airports.json', // eslint-disable-line
-  FLIGHT_PATHS: git_url // eslint-disable-line
+  FLIGHT_PATHS: 'https://raw.githubusercontent.com/Brandonf2022/touringbot/main/fagellecsv.json' // eslint-disable-line
 };
 
 const INITIAL_VIEW_STATE = {
