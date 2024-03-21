@@ -1,7 +1,7 @@
 {
   "name": "touring_dashboard",
   "version": "0.0.0",
-  "private": false,
+  "private": true,
   "license": "MIT",
   "scripts": {
     "start": "vite --open",
