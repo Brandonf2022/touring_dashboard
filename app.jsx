@@ -76,6 +76,13 @@ const handleDropdownChange = (e) => {
     setVenuesUrl(value === 'DATASET1' ? 'URL_FOR_DATASET1' : value === 'DATASET2' ? 'URL_FOR_DATASET2' : '');
   }
 };
+const loadArtistTrips = () => {
+  // Assuming tripUrl is already set
+  fetch(tripUrl)
+    .then(res => res.json())
+    .then(data => setFlightPaths(data))
+    .catch(error => console.error('Error loading flight paths data:', error));
+};
 
   const layers = [
     new ScatterplotLayer({
@@ -125,7 +132,8 @@ const handleDropdownChange = (e) => {
           value={tripUrl} // Make sure this matches the state variable name exactly
           onChange={(e) => setTripUrl(e.target.value)} // Corrected the function name and usage
          />
-         <button onClick={() => setTripUrl(tripUrl)}>Load Artists' trips</button>
+         <button onClick={loadArtistTrips}>Load Artists' trips</button>
+
         </div>
       </div>
       <DeckGL
