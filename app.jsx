@@ -64,7 +64,16 @@ useEffect(() => {
       .catch(error => console.error('Error loading flight paths data:', error));
   }
 }, [tripUrl]);
-
+const loadArtistTrips = () => {
+  // Assuming tripUrl is already set
+  fetch(tripUrl)
+    .then(res => res.json())
+    .then(data => setFlightPaths(data))
+    .catch(error => console.error('Error loading flight paths data:', error));
+};
+const setArtistTripsUrl = () => {
+  setTripUrl('https://raw.githubusercontent.com/Brandonf2022/touring_dashboard/Dev/borealis2023.json');
+};
 const handleDropdownChange = (e) => {
   const value = e.target.value;
   if (value === 'ENTER URL OF DATASET') {
@@ -75,13 +84,6 @@ const handleDropdownChange = (e) => {
     // You'd replace these with your actual dataset URLs
     setVenuesUrl(value === 'DATASET1' ? 'URL_FOR_DATASET1' : value === 'DATASET2' ? 'URL_FOR_DATASET2' : '');
   }
-};
-const loadArtistTrips = () => {
-  // Assuming tripUrl is already set
-  fetch(tripUrl)
-    .then(res => res.json())
-    .then(data => setFlightPaths(data))
-    .catch(error => console.error('Error loading flight paths data:', error));
 };
 
   const layers = [
@@ -126,14 +128,19 @@ const loadArtistTrips = () => {
         </div>
       
         <div>
-        <input
-          type="text"
-          placeholder="Enter artist trips dataset URL"
-          value={tripUrl} // Make sure this matches the state variable name exactly
-          onChange={(e) => setTripUrl(e.target.value)} // Corrected the function name and usage
-         />
-         <button onClick={loadArtistTrips}>Load Artists' trips</button>
+        <div>
+       <input
+        type="text"
+        placeholder="Enter artist trips dataset URL"
+        value={tripUrl}
+        onChange={(e) => setTripUrl(e.target.value)}
+        />
+        <button onClick={() => setTripUrl(tripUrl)}>Load Artists' trips</button>
+        {/* New Button for setting the Artists' trips dataset URL */}
+        <button onClick={setArtistTripsUrl}>Borealis 2023 Dataset</button>
+       </div>
 
+         <button onClick={loadArtistTrips}>Load Artists' trips</button>
         </div>
       </div>
       <DeckGL
