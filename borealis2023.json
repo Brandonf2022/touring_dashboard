@@ -1,0 +1,3796 @@
+[
+    {
+        "start": [
+            5.3149231,
+            60.3965922,
+            0
+        ],
+        "end": [
+            5.4378035,
+            60.4611521,
+            0
+        ],
+        "name": "Alwynne Pritchard, Lydgalleriet to Oleana",
+        "date": "16.11.21"
+    },
+    {
+        "start": [
+            5.4378035,
+            60.4611521,
+            0
+        ],
+        "end": [
+            5.326552,
+            60.389704,
+            0
+        ],
+        "name": "Alwynne Pritchard, Oleana to Landmark Bergen",
+        "date": "19.11.21"
+    },
+    {
+        "start": [
+            5.326552,
+            60.389704,
+            0
+        ],
+        "end": [
+            4.8409819,
+            45.7526404,
+            0
+        ],
+        "name": "Alwynne Pritchard, Landmark Bergen to Th\u00e9\u00e2tre de L'Uchronie",
+        "date": "19.01.22"
+    },
+    {
+        "start": [
+            4.8409819,
+            45.7526404,
+            0
+        ],
+        "end": [
+            -2.2365536,
+            53.4684331,
+            0
+        ],
+        "name": "Alwynne Pritchard, Th\u00e9\u00e2tre de L'Uchronie to RNCM Concert Hall ",
+        "date": "28.01.22"
+    },
+    {
+        "start": [
+            -2.2365536,
+            53.4684331,
+            0
+        ],
+        "end": [
+            1.0811066,
+            51.2817372,
+            0
+        ],
+        "name": "Alwynne Pritchard, RNCM Concert Hall  to The Old Synagogue",
+        "date": "18.03.22"
+    },
+    {
+        "start": [
+            1.0811066,
+            51.2817372,
+            0
+        ],
+        "end": [
+            13.2708552,
+            52.5088592,
+            0
+        ],
+        "name": "Alwynne Pritchard, The Old Synagogue to BKA Berliner Kabarett Anstalt",
+        "date": "31.03.22"
+    },
+    {
+        "start": [
+            13.2708552,
+            52.5088592,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.39225,
+            0
+        ],
+        "name": "Alwynne Pritchard, BKA Berliner Kabarett Anstalt to BIT Teatergarasjen",
+        "date": "26.04.22"
+    },
+    {
+        "start": [
+            5.31878,
+            60.39225,
+            0
+        ],
+        "end": [
+            9.9852945,
+            48.3918214,
+            0
+        ],
+        "name": "Alwynne Pritchard, BIT Teatergarasjen to Roxy",
+        "date": "11.06.22"
+    },
+    {
+        "start": [
+            9.9852945,
+            48.3918214,
+            0
+        ],
+        "end": [
+            7.8347578,
+            47.9941873,
+            0
+        ],
+        "name": "Alwynne Pritchard, Roxy to E-WERK",
+        "date": "17.06.22"
+    },
+    {
+        "start": [
+            7.8347578,
+            47.9941873,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Alwynne Pritchard, E-WERK to Borealis",
+        "date": "25.06.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "19.03.23"
+    },
+    {
+        "start": [
+            5.3151736,
+            60.3952292,
+            0
+        ],
+        "end": [
+            5.3151026,
+            60.3952213,
+            0
+        ],
+        "name": "Amber Ablett, Hordaland Kunstsenter to TASC Studio",
+        "date": "01.01.16"
+    },
+    {
+        "start": [
+            5.3151026,
+            60.3952213,
+            0
+        ],
+        "end": [
+            5.3151736,
+            60.3952292,
+            0
+        ],
+        "name": "Amber Ablett, TASC Studio to Hordaland Kunstsenter",
+        "date": "01.01.18"
+    },
+    {
+        "start": [
+            5.3151736,
+            60.3952292,
+            0
+        ],
+        "end": [
+            10.7307925,
+            59.9195363,
+            0
+        ],
+        "name": "Amber Ablett, Hordaland Kunstsenter to Kunstnerneshus",
+        "date": "01.01.19"
+    },
+    {
+        "start": [
+            10.7307925,
+            59.9195363,
+            0
+        ],
+        "end": [
+            5.3149231,
+            60.3965922,
+            0
+        ],
+        "name": "Amber Ablett, Kunstnerneshus to Lydgalleriet",
+        "date": "01.09.19"
+    },
+    {
+        "start": [
+            5.3149231,
+            60.3965922,
+            0
+        ],
+        "end": [
+            10.7373798,
+            59.9168504,
+            0
+        ],
+        "name": "Amber Ablett, Lydgalleriet to UKS Unge Kunstneres Samfund / Young Artists\u2019 Society",
+        "date": "08.11.19"
+    },
+    {
+        "start": [
+            10.7373798,
+            59.9168504,
+            0
+        ],
+        "end": [
+            5.3264104,
+            60.3897461,
+            0
+        ],
+        "name": "Amber Ablett, UKS Unge Kunstneres Samfund / Young Artists\u2019 Society to Bergen Konsthall",
+        "date": "01.02.21"
+    },
+    {
+        "start": [
+            5.3264104,
+            60.3897461,
+            0
+        ],
+        "end": [
+            6.2012209,
+            60.3880209,
+            0
+        ],
+        "name": "Amber Ablett, Bergen Konsthall to Kunsthuset Kabuso",
+        "date": "01.01.22"
+    },
+    {
+        "start": [
+            6.2012209,
+            60.3880209,
+            0
+        ],
+        "end": [
+            5.3151736,
+            60.3952292,
+            0
+        ],
+        "name": "Amber Ablett, Kunsthuset Kabuso to Hordaland Kunstsenter",
+        "date": "01.01.22"
+    },
+    {
+        "start": [
+            5.3151736,
+            60.3952292,
+            0
+        ],
+        "end": [
+            5.312031,
+            60.3980202,
+            0
+        ],
+        "name": "Amber Ablett, Hordaland Kunstsenter to Bergen senter for elektronisk kunst BEK",
+        "date": "01.10.22"
+    },
+    {
+        "start": [
+            5.312031,
+            60.3980202,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Amber Ablett, Bergen senter for elektronisk kunst BEK to Borealis",
+        "date": "01.11.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            8.6511929,
+            49.8728253,
+            0
+        ],
+        "end": [
+            34.7817676,
+            32.0852999,
+            0
+        ],
+        "name": "Anahita Abbasi, Darmstadt Ferienkurse (Festival) to Studio Annette",
+        "date": "01.01.21"
+    },
+    {
+        "start": [
+            34.7817676,
+            32.0852999,
+            0
+        ],
+        "end": [
+            -117.150825,
+            32.7311444,
+            0
+        ],
+        "name": "Anahita Abbasi, Studio Annette to Mingei international Museum",
+        "date": "30.04.22"
+    },
+    {
+        "start": [
+            -117.150825,
+            32.7311444,
+            0
+        ],
+        "end": [
+            -122.3311691,
+            47.6640968,
+            0
+        ],
+        "name": "Anahita Abbasi, Mingei international Museum to Chapel Performance Space at Good Shepherd Center",
+        "date": "11.06.22"
+    },
+    {
+        "start": [
+            -122.3311691,
+            47.6640968,
+            0
+        ],
+        "end": [
+            -74.017383,
+            40.647253,
+            0
+        ],
+        "name": "Anahita Abbasi, Chapel Performance Space at Good Shepherd Center to Target Margin Theater",
+        "date": "12.06.22"
+    },
+    {
+        "start": [
+            -74.017383,
+            40.647253,
+            0
+        ],
+        "end": [
+            11.5547032,
+            48.1613623,
+            0
+        ],
+        "name": "Anahita Abbasi, Target Margin Theater to Schwere Reiter",
+        "date": "28.10.22"
+    },
+    {
+        "start": [
+            11.5547032,
+            48.1613623,
+            0
+        ],
+        "end": [
+            -75.1932137,
+            39.9522188,
+            0
+        ],
+        "name": "Anahita Abbasi, Schwere Reiter to University of Pennsylvania Library",
+        "date": "13.11.22"
+    },
+    {
+        "start": [
+            -75.1932137,
+            39.9522188,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Anahita Abbasi, University of Pennsylvania Library to Borealis",
+        "date": "03.02.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            8.7717534,
+            53.0760487,
+            0
+        ],
+        "name": "Anahita Abbasi, Borealis to Tabakquartier - Zentrum f\u00fcr Kunst",
+        "date": "16.03.23"
+    },
+    {
+        "start": [
+            8.7717534,
+            53.0760487,
+            0
+        ],
+        "end": [
+            6.9549608,
+            50.9523344,
+            0
+        ],
+        "name": "Anahita Abbasi, Tabakquartier - Zentrum f\u00fcr Kunst to Alte Feuerwache K\u00f6ln",
+        "date": "18.03.23"
+    },
+    {
+        "start": [
+            6.9549608,
+            50.9523344,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "19.03.23"
+    },
+    {
+        "start": [
+            13.394703,
+            52.5171049,
+            0
+        ],
+        "end": [
+            10.065604,
+            53.667047,
+            0
+        ],
+        "name": "Beat Furrer, Staatsoper Unter den Linden to N.N.",
+        "date": "13.01.19"
+    },
+    {
+        "start": [
+            10.065604,
+            53.667047,
+            0
+        ],
+        "end": [
+            8.4926611,
+            47.95209,
+            0
+        ],
+        "name": "Beat Furrer, N.N. to Donauhallen",
+        "date": "06.05.19"
+    },
+    {
+        "start": [
+            8.4926611,
+            47.95209,
+            0
+        ],
+        "end": [
+            2.3463104,
+            48.8577285,
+            0
+        ],
+        "name": "Beat Furrer, Donauhallen to Th\u00e9\u00e2tre du Ch\u00e2telet",
+        "date": "20.10.19"
+    },
+    {
+        "start": [
+            2.3463104,
+            48.8577285,
+            0
+        ],
+        "end": [
+            8.3116148,
+            47.0504804,
+            0
+        ],
+        "name": "Beat Furrer, Th\u00e9\u00e2tre du Ch\u00e2telet to KKL Luzern",
+        "date": "21.12.20"
+    },
+    {
+        "start": [
+            8.3116148,
+            47.0504804,
+            0
+        ],
+        "end": [
+            8.5054971,
+            47.956214,
+            0
+        ],
+        "name": "Beat Furrer, KKL Luzern to Baar-Sporthalle",
+        "date": "06.09.21"
+    },
+    {
+        "start": [
+            8.5054971,
+            47.956214,
+            0
+        ],
+        "end": [
+            16.3773295,
+            48.2008773,
+            0
+        ],
+        "name": "Beat Furrer, Baar-Sporthalle to Wiener Konzerthaus",
+        "date": "14.10.21"
+    },
+    {
+        "start": [
+            16.3773295,
+            48.2008773,
+            0
+        ],
+        "end": [
+            2.3940214,
+            48.889679,
+            0
+        ],
+        "name": "Beat Furrer, Wiener Konzerthaus to Amith\u00e9atre Cit\u00e9 de la Musique",
+        "date": "30.11.21"
+    },
+    {
+        "start": [
+            2.3940214,
+            48.889679,
+            0
+        ],
+        "end": [
+            4.8791459,
+            52.356319,
+            0
+        ],
+        "name": "Beat Furrer, Amith\u00e9atre Cit\u00e9 de la Musique to Concertgebouw\u00a0",
+        "date": "17.01.22"
+    },
+    {
+        "start": [
+            4.8791459,
+            52.356319,
+            0
+        ],
+        "end": [
+            16.3773295,
+            48.2008773,
+            0
+        ],
+        "name": "Beat Furrer, Concertgebouw\u00a0 to Konzerthaus Wien",
+        "date": "06.05.22"
+    },
+    {
+        "start": [
+            16.3773295,
+            48.2008773,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Beat Furrer, Konzerthaus Wien to Borealis",
+        "date": "07.05.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "16.03.23"
+    },
+    {
+        "start": [
+            -73.9822534,
+            40.7531823,
+            0
+        ],
+        "end": [
+            4.3571696,
+            50.8476424,
+            0
+        ],
+        "name": "Bill Dietz, New York Public Library to C I.II.III.IV. A",
+        "date": "10.05.21"
+    },
+    {
+        "start": [
+            4.3571696,
+            50.8476424,
+            0
+        ],
+        "end": [
+            113.26436,
+            23.1290799,
+            0
+        ],
+        "name": "Bill Dietz, C I.II.III.IV. A to Unmute",
+        "date": "09.07.21"
+    },
+    {
+        "start": [
+            113.26436,
+            23.1290799,
+            0
+        ],
+        "end": [
+            13.4062255,
+            52.5354239,
+            0
+        ],
+        "name": "Bill Dietz, Unmute to Tanznacht (Festival)",
+        "date": "17.07.21"
+    },
+    {
+        "start": [
+            13.4062255,
+            52.5354239,
+            0
+        ],
+        "end": [
+            13.3644649,
+            52.5185185,
+            0
+        ],
+        "name": "Bill Dietz, Tanznacht (Festival) to Haus der Kulturen der Welt",
+        "date": "22.07.21"
+    },
+    {
+        "start": [
+            13.3644649,
+            52.5185185,
+            0
+        ],
+        "end": [
+            7.5946478,
+            47.5460129,
+            0
+        ],
+        "name": "Bill Dietz, Haus der Kulturen der Welt to Fachhochschule Nordwest Schweiz",
+        "date": "11.09.21"
+    },
+    {
+        "start": [
+            7.5946478,
+            47.5460129,
+            0
+        ],
+        "end": [
+            13.4090756,
+            52.5161321,
+            0
+        ],
+        "name": "Bill Dietz, Fachhochschule Nordwest Schweiz to Alte M\u00fcnze",
+        "date": "28.09.22"
+    },
+    {
+        "start": [
+            13.4090756,
+            52.5161321,
+            0
+        ],
+        "end": [
+            2.3451397,
+            48.8418769,
+            0
+        ],
+        "name": "Bill Dietz, Alte M\u00fcnze to E\u0301cole Nationale Supe\u0301rieure d\u2019Arts de Paris",
+        "date": "29.09.22"
+    },
+    {
+        "start": [
+            2.3451397,
+            48.8418769,
+            0
+        ],
+        "end": [
+            -79.9428499,
+            40.4432027,
+            0
+        ],
+        "name": "Bill Dietz, E\u0301cole Nationale Supe\u0301rieure d\u2019Arts de Paris to Carnegie Mellon University",
+        "date": "10.11.22"
+    },
+    {
+        "start": [
+            -79.9428499,
+            40.4432027,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Bill Dietz, Carnegie Mellon University to Borealis",
+        "date": "21.11.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "18.03.23"
+    },
+    {
+        "start": [
+            11.3336548,
+            50.7182972,
+            0
+        ],
+        "end": [
+            110.8243272,
+            -7.5754887,
+            0
+        ],
+        "name": "Dewa Alit, Rudolstadt Music Festival to International Gamelan Festival 2018",
+        "date": "07.07.18"
+    },
+    {
+        "start": [
+            110.8243272,
+            -7.5754887,
+            0
+        ],
+        "end": [
+            -77.5397192,
+            37.5758243,
+            0
+        ],
+        "name": "Dewa Alit, International Gamelan Festival 2018 to University of Richmond Tucker-Boatwright Festival",
+        "date": "16.08.18"
+    },
+    {
+        "start": [
+            -77.5397192,
+            37.5758243,
+            0
+        ],
+        "end": [
+            -123.2459939,
+            49.2606052,
+            0
+        ],
+        "name": "Dewa Alit, University of Richmond Tucker-Boatwright Festival to UBC",
+        "date": "23.01.19"
+    },
+    {
+        "start": [
+            -123.2459939,
+            49.2606052,
+            0
+        ],
+        "end": [
+            115.2795587,
+            -8.6370364,
+            0
+        ],
+        "name": "Dewa Alit, UBC to Bentara Budaya",
+        "date": "01.02.19"
+    },
+    {
+        "start": [
+            115.2795587,
+            -8.6370364,
+            0
+        ],
+        "end": [
+            55.3940315,
+            25.3514041,
+            0
+        ],
+        "name": "Dewa Alit, Bentara Budaya to Sharjah Architecture Triennial",
+        "date": "20.09.19"
+    },
+    {
+        "start": [
+            55.3940315,
+            25.3514041,
+            0
+        ],
+        "end": [
+            -78.8802473,
+            42.9205728,
+            0
+        ],
+        "name": "Dewa Alit, Sharjah Architecture Triennial to Nusantara Arts",
+        "date": "09.11.19"
+    },
+    {
+        "start": [
+            -78.8802473,
+            42.9205728,
+            0
+        ],
+        "end": [
+            2.3427064,
+            48.8628365,
+            0
+        ],
+        "name": "Dewa Alit, Nusantara Arts to Bourse de Commerce",
+        "date": "17.07.20"
+    },
+    {
+        "start": [
+            2.3427064,
+            48.8628365,
+            0
+        ],
+        "end": [
+            4.3006999,
+            52.0704978,
+            0
+        ],
+        "name": "Dewa Alit, Bourse de Commerce to Rewire Festival",
+        "date": "12.04.22"
+    },
+    {
+        "start": [
+            4.3006999,
+            52.0704978,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Dewa Alit, Rewire Festival to Borealis",
+        "date": "10.10.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            14.2072535,
+            68.1541872,
+            0
+        ],
+        "end": [
+            9.6056644,
+            59.2096369,
+            0
+        ],
+        "name": "Elina Waage Mikalsen, Nordnorsk Kunstnersenter to Telemark Kunstsenter",
+        "date": "06.09.18"
+    },
+    {
+        "start": [
+            9.6056644,
+            59.2096369,
+            0
+        ],
+        "end": [
+            18.9553238,
+            69.6492047,
+            0
+        ],
+        "name": "Elina Waage Mikalsen, Telemark Kunstsenter to Kabelvouge - en klubb for alle",
+        "date": "24.02.19"
+    },
+    {
+        "start": [
+            18.9553238,
+            69.6492047,
+            0
+        ],
+        "end": [
+            -0.0925716,
+            51.5023628,
+            0
+        ],
+        "name": "Elina Waage Mikalsen, Kabelvouge - en klubb for alle to Resonance FM",
+        "date": "17.05.20"
+    },
+    {
+        "start": [
+            -0.0925716,
+            51.5023628,
+            0
+        ],
+        "end": [
+            13.404954,
+            52.5200066,
+            0
+        ],
+        "name": "Elina Waage Mikalsen, Resonance FM to Cashmere Radio",
+        "date": "03.12.20"
+    },
+    {
+        "start": [
+            13.404954,
+            52.5200066,
+            0
+        ],
+        "end": [
+            -14.0095466,
+            65.2602307,
+            0
+        ],
+        "name": "Elina Waage Mikalsen, Cashmere Radio to Sey\u00f0isfj\u00f6r\u00f0ur Community Radio",
+        "date": "12.12.20"
+    },
+    {
+        "start": [
+            -14.0095466,
+            65.2602307,
+            0
+        ],
+        "end": [
+            10.7307925,
+            59.9195363,
+            0
+        ],
+        "name": "Elina Waage Mikalsen, Sey\u00f0isfj\u00f6r\u00f0ur Community Radio to Kunstnerneshus",
+        "date": "04.11.21"
+    },
+    {
+        "start": [
+            10.7307925,
+            59.9195363,
+            0
+        ],
+        "end": [
+            10.7292472,
+            59.911506,
+            0
+        ],
+        "name": "Elina Waage Mikalsen, Kunstnerneshus to National Museum of Norway",
+        "date": "23.04.22"
+    },
+    {
+        "start": [
+            10.7292472,
+            59.911506,
+            0
+        ],
+        "end": [
+            103.819836,
+            1.352083,
+            0
+        ],
+        "name": "Elina Waage Mikalsen, National Museum of Norway to Singapore Biennale",
+        "date": "11.06.22"
+    },
+    {
+        "start": [
+            103.819836,
+            1.352083,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Elina Waage Mikalsen, Singapore Biennale to Borealis",
+        "date": "15.10.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            5.3107865,
+            60.3881602,
+            0
+        ],
+        "end": [
+            10.7382132,
+            59.9141259,
+            0
+        ],
+        "name": "Eline Rafteseth, Havnelageret studio to Nasjonal Jazzscene",
+        "date": "04.02.22"
+    },
+    {
+        "start": [
+            10.7382132,
+            59.9141259,
+            0
+        ],
+        "end": [
+            5.3205603,
+            60.4018914,
+            0
+        ],
+        "name": "Eline Rafteseth, Nasjonal Jazzscene to Bergen Kj\u00f8tt",
+        "date": "18.10.22"
+    },
+    {
+        "start": [
+            5.3205603,
+            60.4018914,
+            0
+        ],
+        "end": [
+            5.3093656,
+            60.3958114,
+            0
+        ],
+        "name": "Eline Rafteseth, Bergen Kj\u00f8tt to USF Verftet",
+        "date": "25.11.22"
+    },
+    {
+        "start": [
+            5.3093656,
+            60.3958114,
+            0
+        ],
+        "end": [
+            5.3238332,
+            60.3894453,
+            0
+        ],
+        "name": "Eline Rafteseth, USF Verftet to Stereo",
+        "date": "04.12.22"
+    },
+    {
+        "start": [
+            5.3238332,
+            60.3894453,
+            0
+        ],
+        "end": [
+            5.3281331,
+            60.3937275,
+            0
+        ],
+        "name": "Eline Rafteseth, Stereo to \u00d8stre",
+        "date": "08.12.22"
+    },
+    {
+        "start": [
+            5.3281331,
+            60.3937275,
+            0
+        ],
+        "end": [
+            5.3220544,
+            60.3912628,
+            0
+        ],
+        "name": "Eline Rafteseth, \u00d8stre to Avgarde (Festival)",
+        "date": "27.01.23"
+    },
+    {
+        "start": [
+            5.3220544,
+            60.3912628,
+            0
+        ],
+        "end": [
+            5.326552,
+            60.389704,
+            0
+        ],
+        "name": "Eline Rafteseth, Avgarde (Festival) to Landmark Bergen",
+        "date": "05.02.23"
+    },
+    {
+        "start": [
+            5.326552,
+            60.389704,
+            0
+        ],
+        "end": [
+            5.326552,
+            60.389704,
+            0
+        ],
+        "name": "Eline Rafteseth, Landmark Bergen to Landmark Bergen",
+        "date": "12.02.23"
+    },
+    {
+        "start": [
+            5.326552,
+            60.389704,
+            0
+        ],
+        "end": [
+            5.3281331,
+            60.3937275,
+            0
+        ],
+        "name": "Eline Rafteseth, Landmark Bergen to \u00d8stre",
+        "date": "01.03.23"
+    },
+    {
+        "start": [
+            5.3281331,
+            60.3937275,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "04.03.23"
+    },
+    {
+        "start": [
+            5.313391,
+            60.3970377,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Else Olsen S., Nykirken menighetshus to Borealis",
+        "date": "08.10.20"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "end": [
+            10.7547862,
+            59.9315253,
+            0
+        ],
+        "name": "Guoste Tamulynaite, Blow Out! (Festival) to Biermannsg\u00e5rden",
+        "date": "27.08.21"
+    },
+    {
+        "start": [
+            10.7547862,
+            59.9315253,
+            0
+        ],
+        "end": [
+            10.7125309,
+            59.932517,
+            0
+        ],
+        "name": "Guoste Tamulynaite, Biermannsg\u00e5rden to Chateau Neuf",
+        "date": "26.10.21"
+    },
+    {
+        "start": [
+            10.7125309,
+            59.932517,
+            0
+        ],
+        "end": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "name": "Guoste Tamulynaite, Chateau Neuf to Townhouse",
+        "date": "19.01.22"
+    },
+    {
+        "start": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "end": [
+            10.7557042,
+            59.9061331,
+            0
+        ],
+        "name": "Guoste Tamulynaite, Townhouse to Munchmuseet",
+        "date": "21.01.22"
+    },
+    {
+        "start": [
+            10.7557042,
+            59.9061331,
+            0
+        ],
+        "end": [
+            10.7611426,
+            59.911591,
+            0
+        ],
+        "name": "Guoste Tamulynaite, Munchmuseet to k4 Galleri",
+        "date": "28.04.22"
+    },
+    {
+        "start": [
+            10.7611426,
+            59.911591,
+            0
+        ],
+        "end": [
+            13.7372621,
+            51.0504088,
+            0
+        ],
+        "name": "Guoste Tamulynaite, k4 Galleri to Sowieso",
+        "date": "05.05.22"
+    },
+    {
+        "start": [
+            13.7372621,
+            51.0504088,
+            0
+        ],
+        "end": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "name": "Guoste Tamulynaite, Sowieso to Ultima Festival (festival)",
+        "date": "30.07.22"
+    },
+    {
+        "start": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "end": [
+            11.0631472,
+            59.9243807,
+            0
+        ],
+        "name": "Guoste Tamulynaite, Ultima Festival (festival) to Marikollen ungdomsskole",
+        "date": "17.09.22"
+    },
+    {
+        "start": [
+            11.0631472,
+            59.9243807,
+            0
+        ],
+        "end": [
+            10.7652947,
+            59.9111246,
+            0
+        ],
+        "name": "Guoste Tamulynaite, Marikollen ungdomsskole to NyMusikk",
+        "date": "27.10.22"
+    },
+    {
+        "start": [
+            10.7652947,
+            59.9111246,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Guoste Tamulynaite, NyMusikk to Borealis",
+        "date": "10.12.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "17.03.23"
+    },
+    {
+        "start": [
+            10.7307925,
+            59.9195363,
+            0
+        ],
+        "end": [
+            -87.6930108,
+            41.9555108,
+            0
+        ],
+        "name": "Jennifer Torrence, Kunstnerneshus to Beyond this Point",
+        "date": "28.10.22"
+    },
+    {
+        "start": [
+            -87.6930108,
+            41.9555108,
+            0
+        ],
+        "end": [
+            -86.1621877,
+            39.7649331,
+            0
+        ],
+        "name": "Jennifer Torrence, Beyond this Point to Indianapolis Convention Center",
+        "date": "04.11.22"
+    },
+    {
+        "start": [
+            -86.1621877,
+            39.7649331,
+            0
+        ],
+        "end": [
+            10.7581794,
+            59.9222535,
+            0
+        ],
+        "name": "Jennifer Torrence, Indianapolis Convention Center to Atelier Nord",
+        "date": "10.11.22"
+    },
+    {
+        "start": [
+            10.7581794,
+            59.9222535,
+            0
+        ],
+        "end": [
+            16.3291988,
+            48.1871956,
+            0
+        ],
+        "name": "Jennifer Torrence, Atelier Nord to echoraum",
+        "date": "24.11.22"
+    },
+    {
+        "start": [
+            16.3291988,
+            48.1871956,
+            0
+        ],
+        "end": [
+            10.740334,
+            59.9105262,
+            0
+        ],
+        "name": "Jennifer Torrence, echoraum to Praksis",
+        "date": "29.11.22"
+    },
+    {
+        "start": [
+            10.740334,
+            59.9105262,
+            0
+        ],
+        "end": [
+            10.9347012,
+            59.2205369,
+            0
+        ],
+        "name": "Jennifer Torrence, Praksis to UrbanSoundArt (Festival)",
+        "date": "17.12.22"
+    },
+    {
+        "start": [
+            10.9347012,
+            59.2205369,
+            0
+        ],
+        "end": [
+            6.9609979,
+            50.9479734,
+            0
+        ],
+        "name": "Jennifer Torrence, UrbanSoundArt (Festival) to Hochschule f\u00fcr Musik und Tanz K\u00f6ln",
+        "date": "14.01.23"
+    },
+    {
+        "start": [
+            6.9609979,
+            50.9479734,
+            0
+        ],
+        "end": [
+            -87.6297982,
+            41.8781136,
+            0
+        ],
+        "name": "Jennifer Torrence, Hochschule f\u00fcr Musik und Tanz K\u00f6ln to Frequency Festival (Festival)",
+        "date": "10.02.23"
+    },
+    {
+        "start": [
+            -87.6297982,
+            41.8781136,
+            0
+        ],
+        "end": [
+            18.1010613,
+            59.3394614,
+            0
+        ],
+        "name": "Jennifer Torrence, Frequency Festival (Festival) to Stockholm University of the Arts",
+        "date": "22.02.23"
+    },
+    {
+        "start": [
+            18.1010613,
+            59.3394614,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Jennifer Torrence, Stockholm University of the Arts to Borealis",
+        "date": "04.03.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "17.03.23"
+    },
+    {
+        "start": [
+            -118.249845,
+            34.0553454,
+            0
+        ],
+        "end": [
+            -73.9963675,
+            40.7366235,
+            0
+        ],
+        "name": "Jessie Cox, Walt Disney Concert Hall to The Stone NYC",
+        "date": "01.06.19"
+    },
+    {
+        "start": [
+            -73.9963675,
+            40.7366235,
+            0
+        ],
+        "end": [
+            -73.997305,
+            40.7561275,
+            0
+        ],
+        "name": "Jessie Cox, The Stone NYC to The DiMenna Center for Classical Music",
+        "date": "01.07.19"
+    },
+    {
+        "start": [
+            -73.997305,
+            40.7561275,
+            0
+        ],
+        "end": [
+            13.4518179,
+            52.4966371,
+            0
+        ],
+        "name": "Jessie Cox, The DiMenna Center for Classical Music to Festsaal Kreuzberg",
+        "date": "06.11.22"
+    },
+    {
+        "start": [
+            13.4518179,
+            52.4966371,
+            0
+        ],
+        "end": [
+            9.9844647,
+            53.5413305,
+            0
+        ],
+        "name": "Jessie Cox, Festsaal Kreuzberg to Elbphilarmonie",
+        "date": "11.11.22"
+    },
+    {
+        "start": [
+            9.9844647,
+            53.5413305,
+            0
+        ],
+        "end": [
+            -89.3636951,
+            43.0839059,
+            0
+        ],
+        "name": "Jessie Cox, Elbphilarmonie to Cafe Coda",
+        "date": "13.11.22"
+    },
+    {
+        "start": [
+            -89.3636951,
+            43.0839059,
+            0
+        ],
+        "end": [
+            -71.0937289,
+            42.3472952,
+            0
+        ],
+        "name": "Jessie Cox, Cafe Coda to Boston Conservatory Ipswitch Building",
+        "date": "19.11.22"
+    },
+    {
+        "start": [
+            -71.0937289,
+            42.3472952,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Jessie Cox, Boston Conservatory Ipswitch Building to Borealis",
+        "date": "28.01.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            -73.997305,
+            40.7561275,
+            0
+        ],
+        "name": "Jessie Cox, Borealis to The DiMenna Center for Classical Music",
+        "date": "16.03.23"
+    },
+    {
+        "start": [
+            -73.997305,
+            40.7561275,
+            0
+        ],
+        "end": [
+            -73.961316,
+            40.718954,
+            0
+        ],
+        "name": "Jessie Cox, The DiMenna Center for Classical Music to National Sawdust",
+        "date": "26.03.23"
+    },
+    {
+        "start": [
+            -73.961316,
+            40.718954,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "11.12.21"
+    },
+    {
+        "start": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "end": [
+            10.7496906,
+            59.908154,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Blow out to Oslo Fjordhage",
+        "date": "01.02.22"
+    },
+    {
+        "start": [
+            10.7496906,
+            59.908154,
+            0
+        ],
+        "end": [
+            8.291109,
+            60.7164399,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Oslo Fjordhage to Bergsj\u00f8st\u00f8len fjellstue",
+        "date": "30.04.22"
+    },
+    {
+        "start": [
+            8.291109,
+            60.7164399,
+            0
+        ],
+        "end": [
+            5.2679869,
+            59.413581,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Bergsj\u00f8st\u00f8len fjellstue to Podiumfestivalen",
+        "date": "04.05.22"
+    },
+    {
+        "start": [
+            5.2679869,
+            59.413581,
+            0
+        ],
+        "end": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Podiumfestivalen to Oslojazz",
+        "date": "25.06.22"
+    },
+    {
+        "start": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "end": [
+            5.323007,
+            60.391908,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Oslojazz to Vill Vill Vest",
+        "date": "19.08.22"
+    },
+    {
+        "start": [
+            5.323007,
+            60.391908,
+            0
+        ],
+        "end": [
+            10.7463797,
+            59.9064438,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Vill Vill Vest to Salt",
+        "date": "01.09.22"
+    },
+    {
+        "start": [
+            10.7463797,
+            59.9064438,
+            0
+        ],
+        "end": [
+            13.7449811,
+            51.0514144,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Salt to Jazzclub Tonne",
+        "date": "23.09.22"
+    },
+    {
+        "start": [
+            13.7449811,
+            51.0514144,
+            0
+        ],
+        "end": [
+            5.326552,
+            60.389704,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Jazzclub Tonne to Landmark Bergen",
+        "date": "09.10.22"
+    },
+    {
+        "start": [
+            5.326552,
+            60.389704,
+            0
+        ],
+        "end": [
+            10.7816081,
+            59.9118714,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Landmark Bergen to Kampenjazz",
+        "date": "30.11.22"
+    },
+    {
+        "start": [
+            10.7816081,
+            59.9118714,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Jo David Meyer Lysne, Kampenjazz to Borealis",
+        "date": "29.01.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "16.03.23"
+    },
+    {
+        "start": [
+            6.4207918,
+            60.6302009,
+            0
+        ],
+        "end": [
+            5.3217549,
+            60.3878586,
+            0
+        ],
+        "name": "Jostein Stalheim, Ole Bull Akademiet to University of Bergen",
+        "date": "08.08.19"
+    },
+    {
+        "start": [
+            5.3217549,
+            60.3878586,
+            0
+        ],
+        "end": [
+            5.3286714,
+            60.3951627,
+            0
+        ],
+        "name": "Jostein Stalheim, University of Bergen to Kulturhuset Gimle",
+        "date": "29.09.19"
+    },
+    {
+        "start": [
+            5.3286714,
+            60.3951627,
+            0
+        ],
+        "end": [
+            5.3287172,
+            60.3907125,
+            0
+        ],
+        "name": "Jostein Stalheim, Kulturhuset Gimle to Lille Lungeg\u00e5rdsvannet",
+        "date": "20.03.21"
+    },
+    {
+        "start": [
+            5.3287172,
+            60.3907125,
+            0
+        ],
+        "end": [
+            5.3500943,
+            60.3689499,
+            0
+        ],
+        "name": "Jostein Stalheim, Lille Lungeg\u00e5rdsvannet to Western Norway University of Applied Sciences",
+        "date": "28.08.21"
+    },
+    {
+        "start": [
+            5.3500943,
+            60.3689499,
+            0
+        ],
+        "end": [
+            5.3220544,
+            60.3912628,
+            0
+        ],
+        "name": "Jostein Stalheim, Western Norway University of Applied Sciences to Bergen Filharmoniske Orkester",
+        "date": "19.11.21"
+    },
+    {
+        "start": [
+            5.3220544,
+            60.3912628,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Jostein Stalheim, Bergen Filharmoniske Orkester to Borealis",
+        "date": "25.11.21"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            21.4653744,
+            65.3280898,
+            0
+        ],
+        "name": "Jostein Stalheim, Borealis to Pite\u00e5 School of Music",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            21.4653744,
+            65.3280898,
+            0
+        ],
+        "end": [
+            5.3500943,
+            60.3689499,
+            0
+        ],
+        "name": "Jostein Stalheim, Pite\u00e5 School of Music to Western Norway University of Applied Sciences",
+        "date": "30.09.23"
+    },
+    {
+        "start": [
+            5.3500943,
+            60.3689499,
+            0
+        ],
+        "end": [
+            5.3500943,
+            60.3689499,
+            0
+        ],
+        "name": "Jostein Stalheim, Western Norway University of Applied Sciences to Western Norway University of Applied Sciences",
+        "date": "10.11.23"
+    },
+    {
+        "start": [
+            5.3500943,
+            60.3689499,
+            0
+        ],
+        "end": [
+            5.3234029,
+            60.3988974,
+            0
+        ],
+        "name": "Jostein Stalheim, Western Norway University of Applied Sciences to Mariakirken",
+        "date": "11.11.23"
+    },
+    {
+        "start": [
+            5.3234029,
+            60.3988974,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "12.12.23"
+    },
+    {
+        "start": [
+            5.313391,
+            60.3970377,
+            0
+        ],
+        "end": [
+            10.740448,
+            59.907247,
+            0
+        ],
+        "name": "Knut Vaage, Nykirken to Ridehuset Scene, Akershus Festning",
+        "date": "23.10.22"
+    },
+    {
+        "start": [
+            10.740448,
+            59.907247,
+            0
+        ],
+        "end": [
+            5.7577336,
+            58.9691386,
+            0
+        ],
+        "name": "Knut Vaage, Ridehuset Scene, Akershus Festning to Tou Scene",
+        "date": "28.10.22"
+    },
+    {
+        "start": [
+            5.7577336,
+            58.9691386,
+            0
+        ],
+        "end": [
+            5.3543628,
+            60.3167824,
+            0
+        ],
+        "name": "Knut Vaage, Tou Scene to Fana Kulturhus, Kultursalen",
+        "date": "12.11.22"
+    },
+    {
+        "start": [
+            5.3543628,
+            60.3167824,
+            0
+        ],
+        "end": [
+            5.3561615,
+            60.3628876,
+            0
+        ],
+        "name": "Knut Vaage, Fana Kulturhus, Kultursalen to Fridalen kirke",
+        "date": "13.11.22"
+    },
+    {
+        "start": [
+            5.3561615,
+            60.3628876,
+            0
+        ],
+        "end": [
+            5.6924904,
+            58.7405474,
+            0
+        ],
+        "name": "Knut Vaage, Fridalen kirke to Drivhuset bageri og g\u00e5rdsutsalg, Bryne",
+        "date": "13.11.22"
+    },
+    {
+        "start": [
+            5.6924904,
+            58.7405474,
+            0
+        ],
+        "end": [
+            5.3561615,
+            60.3628876,
+            0
+        ],
+        "name": "Knut Vaage, Drivhuset bageri og g\u00e5rdsutsalg, Bryne to Fridalen kirke",
+        "date": "19.11.22"
+    },
+    {
+        "start": [
+            5.3561615,
+            60.3628876,
+            0
+        ],
+        "end": [
+            10.7197106,
+            59.9347071,
+            0
+        ],
+        "name": "Knut Vaage, Fridalen kirke to NRK Store studio",
+        "date": "21.11.22"
+    },
+    {
+        "start": [
+            10.7197106,
+            59.9347071,
+            0
+        ],
+        "end": [
+            7.1156121,
+            50.7184897,
+            0
+        ],
+        "name": "Knut Vaage, NRK Store studio to Pantheon Bonn",
+        "date": "01.12.22"
+    },
+    {
+        "start": [
+            7.1156121,
+            50.7184897,
+            0
+        ],
+        "end": [
+            5.3255039,
+            60.3826705,
+            0
+        ],
+        "name": "Knut Vaage, Pantheon Bonn to Cornerteateret",
+        "date": "30.01.23"
+    },
+    {
+        "start": [
+            5.3255039,
+            60.3826705,
+            0
+        ],
+        "end": [
+            5.7560337,
+            59.8604169,
+            0
+        ],
+        "name": "Knut Vaage, Cornerteateret to Kulturhuset Husnes",
+        "date": "25.02.23"
+    },
+    {
+        "start": [
+            5.7560337,
+            59.8604169,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Knut Vaage, Kulturhuset Husnes to Borealis",
+        "date": "12.03.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "17.03.23"
+    },
+    {
+        "start": [
+            18.3471592,
+            59.306718,
+            0
+        ],
+        "end": [
+            18.062717,
+            59.3350145,
+            0
+        ],
+        "name": "Lo Kristenson, Artipelag to Konserthuset",
+        "date": "28.09.19"
+    },
+    {
+        "start": [
+            18.062717,
+            59.3350145,
+            0
+        ],
+        "end": [
+            12.552457,
+            55.6822857,
+            0
+        ],
+        "name": "Lo Kristenson, Konserthuset to Danish Music Museum",
+        "date": "04.10.19"
+    },
+    {
+        "start": [
+            12.552457,
+            55.6822857,
+            0
+        ],
+        "end": [
+            12.5683371,
+            55.6760968,
+            0
+        ],
+        "name": "Lo Kristenson, Danish Music Museum to Konsertkirken",
+        "date": "01.11.20"
+    },
+    {
+        "start": [
+            12.5683371,
+            55.6760968,
+            0
+        ],
+        "end": [
+            18.3471592,
+            59.306718,
+            0
+        ],
+        "name": "Lo Kristenson, Konsertkirken to Artipelag",
+        "date": "02.11.20"
+    },
+    {
+        "start": [
+            18.3471592,
+            59.306718,
+            0
+        ],
+        "end": [
+            12.5683371,
+            55.6760968,
+            0
+        ],
+        "name": "Lo Kristenson, Artipelag to Konsertkirken",
+        "date": "15.01.22"
+    },
+    {
+        "start": [
+            12.5683371,
+            55.6760968,
+            0
+        ],
+        "end": [
+            10.942819,
+            59.209485,
+            0
+        ],
+        "name": "Lo Kristenson, Konsertkirken to Fredrikstad Domkirke ",
+        "date": "25.02.22"
+    },
+    {
+        "start": [
+            10.942819,
+            59.209485,
+            0
+        ],
+        "end": [
+            10.7389021,
+            59.9157946,
+            0
+        ],
+        "name": "Lo Kristenson, Fredrikstad Domkirke  to Gyldendalhuset",
+        "date": "10.09.22"
+    },
+    {
+        "start": [
+            10.7389021,
+            59.9157946,
+            0
+        ],
+        "end": [
+            18.0499898,
+            59.3423063,
+            0
+        ],
+        "name": "Lo Kristenson, Gyldendalhuset to Pygm\u00e9teatern",
+        "date": "11.09.22"
+    },
+    {
+        "start": [
+            18.0499898,
+            59.3423063,
+            0
+        ],
+        "end": [
+            20.2686956,
+            63.8280443,
+            0
+        ],
+        "name": "Lo Kristenson, Pygm\u00e9teatern to Norrlandsoperan",
+        "date": "01.10.22"
+    },
+    {
+        "start": [
+            20.2686956,
+            63.8280443,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Lo Kristenson, Norrlandsoperan to Borealis",
+        "date": "12.11.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "19.03.23"
+    },
+    {
+        "start": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "end": [
+            5.3151736,
+            60.3952292,
+            0
+        ],
+        "name": "Luke Drozd, Vers Libre to Hordaland Kunstsenter",
+        "date": "24.06.22"
+    },
+    {
+        "start": [
+            5.3151736,
+            60.3952292,
+            0
+        ],
+        "end": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "name": "Luke Drozd, Hordaland Kunstsenter to Vers Libre",
+        "date": "27.06.22"
+    },
+    {
+        "start": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "end": [
+            5.3220544,
+            60.3912628,
+            0
+        ],
+        "name": "Luke Drozd, Vers Libre to Isotop Fellesatelier",
+        "date": "03.07.22"
+    },
+    {
+        "start": [
+            5.3220544,
+            60.3912628,
+            0
+        ],
+        "end": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "name": "Luke Drozd, Isotop Fellesatelier to Vers Libre",
+        "date": "16.09.22"
+    },
+    {
+        "start": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "end": [
+            5.3205603,
+            60.4018914,
+            0
+        ],
+        "name": "Luke Drozd, Vers Libre to Bergen Kj\u00f8tt",
+        "date": "27.10.22"
+    },
+    {
+        "start": [
+            5.3205603,
+            60.4018914,
+            0
+        ],
+        "end": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "name": "Luke Drozd, Bergen Kj\u00f8tt to Vers Libre",
+        "date": "04.11.22"
+    },
+    {
+        "start": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "end": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "name": "Luke Drozd, Vers Libre to Vers Libre",
+        "date": "08.11.22"
+    },
+    {
+        "start": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "end": [
+            -1.5651998,
+            53.7878272,
+            0
+        ],
+        "name": "Luke Drozd, Vers Libre to Norman Records",
+        "date": "11.12.22"
+    },
+    {
+        "start": [
+            -1.5651998,
+            53.7878272,
+            0
+        ],
+        "end": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "name": "Luke Drozd, Norman Records to Vers Libre",
+        "date": "24.01.23"
+    },
+    {
+        "start": [
+            5.3263572,
+            60.3825467,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Luke Drozd, Vers Libre to Borealis",
+        "date": "14.02.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "17.03.23"
+    },
+    {
+        "start": [
+            5.3220544,
+            60.3912628,
+            0
+        ],
+        "end": [
+            14.5650682,
+            68.2318449,
+            0
+        ],
+        "name": "Maia Urstad, Avgarde (Festival) to Nordnorsk Kunstnersenter",
+        "date": "05.02.21"
+    },
+    {
+        "start": [
+            14.5650682,
+            68.2318449,
+            0
+        ],
+        "end": [
+            5.2166712,
+            60.4485647,
+            0
+        ],
+        "name": "Maia Urstad, Nordnorsk Kunstnersenter to Bergen Kringkaster",
+        "date": "01.06.21"
+    },
+    {
+        "start": [
+            5.2166712,
+            60.4485647,
+            0
+        ],
+        "end": [
+            5.5448782,
+            60.5023912,
+            0
+        ],
+        "name": "Maia Urstad, Bergen Kringkaster to Oster\u00f8y Museum",
+        "date": "28.06.21"
+    },
+    {
+        "start": [
+            5.5448782,
+            60.5023912,
+            0
+        ],
+        "end": [
+            -58.4225973,
+            -34.5824236,
+            0
+        ],
+        "name": "Maia Urstad, Oster\u00f8y Museum to Quimera Gallery Buenos Aires",
+        "date": "02.11.21"
+    },
+    {
+        "start": [
+            -58.4225973,
+            -34.5824236,
+            0
+        ],
+        "end": [
+            5.3266443,
+            60.3939642,
+            0
+        ],
+        "name": "Maia Urstad, Quimera Gallery Buenos Aires to Kunsthall 3,14",
+        "date": "04.02.22"
+    },
+    {
+        "start": [
+            5.3266443,
+            60.3939642,
+            0
+        ],
+        "end": [
+            10.7292472,
+            59.911506,
+            0
+        ],
+        "name": "Maia Urstad, Kunsthall 3,14 to National Museum of Norway",
+        "date": "10.02.22"
+    },
+    {
+        "start": [
+            10.7292472,
+            59.911506,
+            0
+        ],
+        "end": [
+            5.9722212,
+            49.5024342,
+            0
+        ],
+        "name": "Maia Urstad, National Museum of Norway to Radio Art Zone",
+        "date": "24.04.22"
+    },
+    {
+        "start": [
+            5.9722212,
+            49.5024342,
+            0
+        ],
+        "end": [
+            16.3718643,
+            48.2081664,
+            0
+        ],
+        "name": "Maia Urstad, Radio Art Zone to ORF \u00f61",
+        "date": "26.07.22"
+    },
+    {
+        "start": [
+            16.3718643,
+            48.2081664,
+            0
+        ],
+        "end": [
+            10.7581794,
+            59.9222535,
+            0
+        ],
+        "name": "Maia Urstad, ORF \u00f61 to Atelier Nord",
+        "date": "28.08.22"
+    },
+    {
+        "start": [
+            10.7581794,
+            59.9222535,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Maia Urstad, Atelier Nord to Borealis",
+        "date": "16.09.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "19.03.23"
+    },
+    {
+        "start": [
+            9.7784892,
+            54.9129068,
+            0
+        ],
+        "end": [
+            14.0176046,
+            48.1578827,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, Alsion to Schl8hof",
+        "date": "03.11.22"
+    },
+    {
+        "start": [
+            14.0176046,
+            48.1578827,
+            0
+        ],
+        "end": [
+            9.5293084,
+            46.8497798,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, Schl8hof to Postremise",
+        "date": "06.11.22"
+    },
+    {
+        "start": [
+            9.5293084,
+            46.8497798,
+            0
+        ],
+        "end": [
+            8.6767808,
+            47.2659401,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, Postremise to Klang&Raum",
+        "date": "12.11.22"
+    },
+    {
+        "start": [
+            8.6767808,
+            47.2659401,
+            0
+        ],
+        "end": [
+            7.997001,
+            58.13929,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, Klang&Raum to Kilden",
+        "date": "20.11.22"
+    },
+    {
+        "start": [
+            7.997001,
+            58.13929,
+            0
+        ],
+        "end": [
+            9.2031793,
+            48.774699,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, Kilden to Theater la Lune",
+        "date": "22.11.22"
+    },
+    {
+        "start": [
+            9.2031793,
+            48.774699,
+            0
+        ],
+        "end": [
+            8.3059444,
+            47.0506024,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, Theater la Lune to Luzerner Theater",
+        "date": "26.11.22"
+    },
+    {
+        "start": [
+            8.3059444,
+            47.0506024,
+            0
+        ],
+        "end": [
+            10.752029,
+            59.9192306,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, Luzerner Theater to Kaf\u00e9 H\u00e6rverk",
+        "date": "08.12.22"
+    },
+    {
+        "start": [
+            10.752029,
+            59.9192306,
+            0
+        ],
+        "end": [
+            10.8011498,
+            59.8100075,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, Kaf\u00e9 H\u00e6rverk to Kolben Kulturhus",
+        "date": "17.01.23"
+    },
+    {
+        "start": [
+            10.8011498,
+            59.8100075,
+            0
+        ],
+        "end": [
+            18.9446983,
+            69.6421509,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, Kolben Kulturhus to H\u00e5logaland teater",
+        "date": "28.01.23"
+    },
+    {
+        "start": [
+            18.9446983,
+            69.6421509,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Maja S. K. Ratkje, H\u00e5logaland teater to Borealis",
+        "date": "04.02.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            -0.1308167,
+            51.5062078,
+            0
+        ],
+        "end": [
+            13.4286967,
+            52.5103112,
+            0
+        ],
+        "name": "Maryanne Amacher, Institute of Contemporary Arts to Radialsystem",
+        "date": "30.05.19"
+    },
+    {
+        "start": [
+            13.4286967,
+            52.5103112,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Maryanne Amacher, Radialsystem to Borealis",
+        "date": "02.02.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "18.03.23"
+    },
+    {
+        "start": [
+            10.4129556,
+            63.4290426,
+            0
+        ],
+        "end": [
+            10.7557042,
+            59.9061331,
+            0
+        ],
+        "name": "Mira Thiruchelvam, Trondheim Internasjonale Olavsfest to Munchmuseet",
+        "date": "01.07.21"
+    },
+    {
+        "start": [
+            10.7557042,
+            59.9061331,
+            0
+        ],
+        "end": [
+            10.7198479,
+            59.9347815,
+            0
+        ],
+        "name": "Mira Thiruchelvam, Munchmuseet to Norwegian Broadcasting Corporation",
+        "date": "12.11.21"
+    },
+    {
+        "start": [
+            10.7198479,
+            59.9347815,
+            0
+        ],
+        "end": [
+            11.1023014,
+            60.0251644,
+            0
+        ],
+        "name": "Mira Thiruchelvam, Norwegian Broadcasting Corporation to Frogner Kultursenter",
+        "date": "01.12.21"
+    },
+    {
+        "start": [
+            11.1023014,
+            60.0251644,
+            0
+        ],
+        "end": [
+            17.2235785,
+            69.4662851,
+            0
+        ],
+        "name": "Mira Thiruchelvam, Frogner Kultursenter to Kr\u00e5keslottet Senja",
+        "date": "30.04.22"
+    },
+    {
+        "start": [
+            17.2235785,
+            69.4662851,
+            0
+        ],
+        "end": [
+            10.7547424,
+            59.9129853,
+            0
+        ],
+        "name": "Mira Thiruchelvam, Kr\u00e5keslottet Senja to Oslo Spektrum",
+        "date": "01.06.22"
+    },
+    {
+        "start": [
+            10.7547424,
+            59.9129853,
+            0
+        ],
+        "end": [
+            5.3281331,
+            60.3937275,
+            0
+        ],
+        "name": "Mira Thiruchelvam, Oslo Spektrum to \u00d8stre",
+        "date": "06.08.22"
+    },
+    {
+        "start": [
+            5.3281331,
+            60.3937275,
+            0
+        ],
+        "end": [
+            10.7505155,
+            59.9167096,
+            0
+        ],
+        "name": "Mira Thiruchelvam, \u00d8stre to Melahuset",
+        "date": "24.11.22"
+    },
+    {
+        "start": [
+            10.7505155,
+            59.9167096,
+            0
+        ],
+        "end": [
+            5.3213859,
+            60.3914057,
+            0
+        ],
+        "name": "Mira Thiruchelvam, Melahuset to Kulturhuset I Bergen",
+        "date": "08.03.23"
+    },
+    {
+        "start": [
+            5.3213859,
+            60.3914057,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Mira Thiruchelvam, Kulturhuset I Bergen to Borealis",
+        "date": "17.03.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "19.03.23"
+    },
+    {
+        "start": [
+            5.3282038,
+            60.388862,
+            0
+        ],
+        "end": [
+            5.3289825,
+            60.3892166,
+            0
+        ],
+        "name": "\u00d8rjan Matre, Grieghallen to KODE Art Museum Bergen",
+        "date": "13.01.22"
+    },
+    {
+        "start": [
+            5.3289825,
+            60.3892166,
+            0
+        ],
+        "end": [
+            5.3282038,
+            60.388862,
+            0
+        ],
+        "name": "\u00d8rjan Matre, KODE Art Museum Bergen to Grieg Hall",
+        "date": "03.02.22"
+    },
+    {
+        "start": [
+            5.3282038,
+            60.388862,
+            0
+        ],
+        "end": [
+            9.2217506,
+            59.3720374,
+            0
+        ],
+        "name": "\u00d8rjan Matre, Grieg Hall to Nes Kirke",
+        "date": "16.02.22"
+    },
+    {
+        "start": [
+            9.2217506,
+            59.3720374,
+            0
+        ],
+        "end": [
+            5.3223816,
+            60.392208,
+            0
+        ],
+        "name": "\u00d8rjan Matre, Nes Kirke to Lille Ole Bull Scene",
+        "date": "23.04.22"
+    },
+    {
+        "start": [
+            5.3223816,
+            60.392208,
+            0
+        ],
+        "end": [
+            10.7541217,
+            59.918033,
+            0
+        ],
+        "name": "\u00d8rjan Matre, Lille Ole Bull Scene to Kulturkirken JAKOB",
+        "date": "24.04.22"
+    },
+    {
+        "start": [
+            10.7541217,
+            59.918033,
+            0
+        ],
+        "end": [
+            10.7659157,
+            59.9222982,
+            0
+        ],
+        "name": "\u00d8rjan Matre, Kulturkirken JAKOB to Sofienberg Kirke",
+        "date": "24.04.22"
+    },
+    {
+        "start": [
+            10.7659157,
+            59.9222982,
+            0
+        ],
+        "end": [
+            -6.2489963,
+            53.3708985,
+            0
+        ],
+        "name": "\u00d8rjan Matre, Sofienberg Kirke to All Hallows Chapel DCU",
+        "date": "13.05.22"
+    },
+    {
+        "start": [
+            -6.2489963,
+            53.3708985,
+            0
+        ],
+        "end": [
+            10.7659157,
+            59.9222982,
+            0
+        ],
+        "name": "\u00d8rjan Matre, All Hallows Chapel DCU to Sofienberg Kirke",
+        "date": "14.05.22"
+    },
+    {
+        "start": [
+            10.7659157,
+            59.9222982,
+            0
+        ],
+        "end": [
+            6.5838333,
+            61.0717714,
+            0
+        ],
+        "name": "\u00d8rjan Matre, Sofienberg Kirke to Hove Steinkyrkje",
+        "date": "14.05.22"
+    },
+    {
+        "start": [
+            6.5838333,
+            61.0717714,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "\u00d8rjan Matre, Hove Steinkyrkje to Borealis",
+        "date": "22.05.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            2.2722369,
+            48.8581596,
+            0
+        ],
+        "end": [
+            2.2722369,
+            48.8581596,
+            0
+        ],
+        "name": "\u00d8yvind Skarb\u00f8, La Gare to La Gare",
+        "date": "05.08.22"
+    },
+    {
+        "start": [
+            2.2722369,
+            48.8581596,
+            0
+        ],
+        "end": [
+            10.7771711,
+            59.9171812,
+            0
+        ],
+        "name": "\u00d8yvind Skarb\u00f8, La Gare to \u00d8yafestivalen",
+        "date": "06.08.22"
+    },
+    {
+        "start": [
+            10.7771711,
+            59.9171812,
+            0
+        ],
+        "end": [
+            5.3194463,
+            60.3886332,
+            0
+        ],
+        "name": "\u00d8yvind Skarb\u00f8, \u00d8yafestivalen to Johanneskirken",
+        "date": "12.08.22"
+    },
+    {
+        "start": [
+            5.3194463,
+            60.3886332,
+            0
+        ],
+        "end": [
+            5.3224448,
+            60.3922944,
+            0
+        ],
+        "name": "\u00d8yvind Skarb\u00f8, Johanneskirken to Swing\u2019n\u2019Sweet",
+        "date": "25.09.22"
+    },
+    {
+        "start": [
+            5.3224448,
+            60.3922944,
+            0
+        ],
+        "end": [
+            10.7382132,
+            59.9141259,
+            0
+        ],
+        "name": "\u00d8yvind Skarb\u00f8, Swing\u2019n\u2019Sweet to Victoria Nasjonal Jazzscene",
+        "date": "01.10.22"
+    },
+    {
+        "start": [
+            10.7382132,
+            59.9141259,
+            0
+        ],
+        "end": [
+            10.4110741,
+            63.4342131,
+            0
+        ],
+        "name": "\u00d8yvind Skarb\u00f8, Victoria Nasjonal Jazzscene to Dokkhuset Scene",
+        "date": "02.10.22"
+    },
+    {
+        "start": [
+            10.4110741,
+            63.4342131,
+            0
+        ],
+        "end": [
+            7.1808245,
+            62.7402591,
+            0
+        ],
+        "name": "\u00d8yvind Skarb\u00f8, Dokkhuset Scene to Storyville Jazz Club",
+        "date": "03.10.22"
+    },
+    {
+        "start": [
+            7.1808245,
+            62.7402591,
+            0
+        ],
+        "end": [
+            5.3092902,
+            60.3958295,
+            0
+        ],
+        "name": "\u00d8yvind Skarb\u00f8, Storyville Jazz Club to Sardinen USF Verftet",
+        "date": "04.10.22"
+    },
+    {
+        "start": [
+            5.3092902,
+            60.3958295,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "\u00d8yvind Skarb\u00f8, Sardinen USF Verftet to Borealis",
+        "date": "05.10.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            10.7307925,
+            59.9195363,
+            0
+        ],
+        "end": [
+            24.7535746,
+            59.4369608,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, Kunstnerneshus to Estonia Concert Hall",
+        "date": "28.10.22"
+    },
+    {
+        "start": [
+            24.7535746,
+            59.4369608,
+            0
+        ],
+        "end": [
+            6.1424806,
+            49.6185697,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, Estonia Concert Hall to Luxembourg Philharmonie",
+        "date": "04.11.22"
+    },
+    {
+        "start": [
+            6.1424806,
+            49.6185697,
+            0
+        ],
+        "end": [
+            16.3600847,
+            48.2021448,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, Luxembourg Philharmonie to Dschungel",
+        "date": "19.11.22"
+    },
+    {
+        "start": [
+            16.3600847,
+            48.2021448,
+            0
+        ],
+        "end": [
+            9.1863193,
+            48.7785419,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, Dschungel to Hochschule f\u00fcr Musik und Darstellende Kunst Stuttgart",
+        "date": "24.11.22"
+    },
+    {
+        "start": [
+            9.1863193,
+            48.7785419,
+            0
+        ],
+        "end": [
+            26.1025384,
+            44.4267674,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, Hochschule f\u00fcr Musik und Darstellende Kunst Stuttgart to Romanian Athenaeum",
+        "date": "03.12.22"
+    },
+    {
+        "start": [
+            26.1025384,
+            44.4267674,
+            0
+        ],
+        "end": [
+            139.729956,
+            35.67318,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, Romanian Athenaeum to Goethe Institute Tokyo",
+        "date": "15.12.22"
+    },
+    {
+        "start": [
+            139.729956,
+            35.67318,
+            0
+        ],
+        "end": [
+            -4.2451528,
+            55.8590362,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, Goethe Institute Tokyo to City Halls",
+        "date": "25.12.22"
+    },
+    {
+        "start": [
+            -4.2451528,
+            55.8590362,
+            0
+        ],
+        "end": [
+            25.276401,
+            57.313359,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, City Halls to Vidzeme Concert Hall\u00a0",
+        "date": "02.02.23"
+    },
+    {
+        "start": [
+            25.276401,
+            57.313359,
+            0
+        ],
+        "end": [
+            -73.9631989,
+            40.8079766,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, Vidzeme Concert Hall\u00a0 to Miller Theatre",
+        "date": "04.02.23"
+    },
+    {
+        "start": [
+            -73.9631989,
+            40.8079766,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "\u00d8yvind Torvund, Miller Theatre to Borealis",
+        "date": "02.03.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "18.03.23"
+    },
+    {
+        "start": [
+            10.7557042,
+            59.9061331,
+            0
+        ],
+        "end": [
+            5.3082207,
+            60.2939585,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, Munchmuseet to Siljust\u00f8l",
+        "date": "04.05.22"
+    },
+    {
+        "start": [
+            5.329447,
+            60.319625,
+            0
+        ],
+        "end": [
+            10.3950528,
+            63.4305149,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, Troldhaugen to Olavsfest",
+        "date": "12.06.22"
+    },
+    {
+        "start": [
+            10.3950528,
+            63.4305149,
+            0
+        ],
+        "end": [
+            21.6822203,
+            63.1141149,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, Olavsfest to Korsholm kirke",
+        "date": "29.07.22"
+    },
+    {
+        "start": [
+            21.6822203,
+            63.1141149,
+            0
+        ],
+        "end": [
+            22.2557476,
+            63.1511342,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, Korsholm kirke to V\u00f6r\u00e5 kirke",
+        "date": "01.08.22"
+    },
+    {
+        "start": [
+            22.2557476,
+            63.1511342,
+            0
+        ],
+        "end": [
+            10.7468867,
+            59.912524,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, V\u00f6r\u00e5 kirke to Oslo Domkirke",
+        "date": "02.08.22"
+    },
+    {
+        "start": [
+            10.7468867,
+            59.912524,
+            0
+        ],
+        "end": [
+            5.3289825,
+            60.3892166,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, Oslo Domkirke to Kode",
+        "date": "04.08.22"
+    },
+    {
+        "start": [
+            5.3289825,
+            60.3892166,
+            0
+        ],
+        "end": [
+            23.6964758,
+            63.5480932,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, Kode to Kaustinen Chamber Music Festival",
+        "date": "09.09.22"
+    },
+    {
+        "start": [
+            23.6964758,
+            63.5480932,
+            0
+        ],
+        "end": [
+            5.3289825,
+            60.3892166,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, Kaustinen Chamber Music Festival to Kode",
+        "date": "16.09.22"
+    },
+    {
+        "start": [
+            5.3289825,
+            60.3892166,
+            0
+        ],
+        "end": [
+            5.3205603,
+            60.4018914,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, Kode to Bergen Kj\u00f8tt",
+        "date": "28.10.22"
+    },
+    {
+        "start": [
+            5.3205603,
+            60.4018914,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Rebecka Ahvenniemi, Bergen Kj\u00f8tt to Borealis",
+        "date": "10.11.22"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            10.740448,
+            59.907247,
+            0
+        ],
+        "end": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "name": "Rob Waring, Ridehuset to Sisu Percussion Trio",
+        "date": "23.09.17"
+    },
+    {
+        "start": [
+            10.7522454,
+            59.9138688,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Rob Waring, Sisu Percussion Trio to Borealis",
+        "date": "11.03.18"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "15.03.23"
+    },
+    {
+        "start": [
+            16.2798068,
+            48.208459,
+            0
+        ],
+        "end": [
+            19.4428887,
+            51.7577653,
+            0
+        ],
+        "name": "Sofia Jernberg, Jugendstiltheater am Steinhof to Wytw\u00f3rnia",
+        "date": "30.05.22"
+    },
+    {
+        "start": [
+            19.4428887,
+            51.7577653,
+            0
+        ],
+        "end": [
+            10.7520679,
+            59.9078346,
+            0
+        ],
+        "name": "Sofia Jernberg, Wytw\u00f3rnia to Den Norske Opera och Ballett",
+        "date": "13.07.22"
+    },
+    {
+        "start": [
+            10.7520679,
+            59.9078346,
+            0
+        ],
+        "end": [
+            13.3997506,
+            42.3529213,
+            0
+        ],
+        "name": "Sofia Jernberg, Den Norske Opera och Ballett to MAXXI L\u2019Aquila",
+        "date": "17.09.22"
+    },
+    {
+        "start": [
+            13.3997506,
+            42.3529213,
+            0
+        ],
+        "end": [
+            21.0135575,
+            52.217653,
+            0
+        ],
+        "name": "Sofia Jernberg, MAXXI L\u2019Aquila to Pardon, To Tu",
+        "date": "18.09.22"
+    },
+    {
+        "start": [
+            21.0135575,
+            52.217653,
+            0
+        ],
+        "end": [
+            23.7766479,
+            61.4985784,
+            0
+        ],
+        "name": "Sofia Jernberg, Pardon, To Tu to Tullikamarin\u00a0Pakkahuone",
+        "date": "22.09.22"
+    },
+    {
+        "start": [
+            23.7766479,
+            61.4985784,
+            0
+        ],
+        "end": [
+            9.9844647,
+            53.5413305,
+            0
+        ],
+        "name": "Sofia Jernberg, Tullikamarin\u00a0Pakkahuone to Elbphilarmonie, Kleiner Saal",
+        "date": "04.11.22"
+    },
+    {
+        "start": [
+            9.9844647,
+            53.5413305,
+            0
+        ],
+        "end": [
+            8.652649,
+            49.8717716,
+            0
+        ],
+        "name": "Sofia Jernberg, Elbphilarmonie, Kleiner Saal to Centralstation",
+        "date": "22.02.23"
+    },
+    {
+        "start": [
+            8.652649,
+            49.8717716,
+            0
+        ],
+        "end": [
+            18.0451484,
+            59.3386827,
+            0
+        ],
+        "name": "Sofia Jernberg, Centralstation to Kapellet, Olivecronasv\u00e4g 22-26, Stockholm",
+        "date": "25.02.23"
+    },
+    {
+        "start": [
+            18.0451484,
+            59.3386827,
+            0
+        ],
+        "end": [
+            17.6350962,
+            59.8532689,
+            0
+        ],
+        "name": "Sofia Jernberg, Kapellet, Olivecronasv\u00e4g 22-26, Stockholm to Uppsala Konstmuseum",
+        "date": "26.02.23"
+    },
+    {
+        "start": [
+            17.6350962,
+            59.8532689,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "Sofia Jernberg, Uppsala Konstmuseum to Borealis",
+        "date": "28.02.23"
+    },
+    {
+        "start": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "end": [
+            5.31878,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "16.03.23"
+    },
+    {
+        "start": [
+            -0.1163042,
+            51.5060805,
+            0
+        ],
+        "end": [
+            10.740317,
+            59.911125,
+            0
+        ],
+        "name": "Susanne Xin, Southbank Centre to Sentralen",
+        "date": "26.06.22"
+    },
+    {
+        "start": [
+            10.740317,
+            59.911125,
+            0
+        ],
+        "end": [
+            10.7670719,
+            59.9103609,
+            0
+        ],
+        "name": "Susanne Xin, Sentralen to Cafeteatret",
+        "date": "21.10.22"
+    },
+    {
+        "start": [
+            10.7670719,
+            59.9103609,
+            0
+        ],
+        "end": [
+            10.7746369,
+            59.9172881,
+            0
+        ],
+        "name": "Susanne Xin, Cafeteatret to Gamle Munch",
+        "date": "29.10.22"
+    },
+    {
+        "start": [
+            10.7746369,
+            59.9172881,
+            0
+        ],
+        "end": [
+            5.3109383,
+            60.3979873,
+            0
+        ],
+        "name": "going to Borealis",
+        "date": "12.11.22"
+    }
+]
