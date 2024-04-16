@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client';
 import { Map } from 'react-map-gl';
 import maplibregl from 'maplibre-gl';
 import DeckGL from '@deck.gl/react';
-import { LineLayer, ScatterplotLayer } from '@deck.gl/layers';
+import { LineLayer, ScatterplotLayer, ArcLayer} from '@deck.gl/layers';
 
 const INITIAL_VIEW_STATE = {
-  latitude: 47.65,
-  longitude: 7,
+  latitude: 63,
+  longitude: 12,
   zoom: 4.5,
   maxZoom: 16,
   pitch: 50,
@@ -16,133 +16,184 @@ const INITIAL_VIEW_STATE = {
 
 const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
 
-function getColor() {
-  return [80, 130, 255];
+function getColor(modularityClass) {
+  // Define three color codes
+  const colorRed = [255, 0, 0]; // Red
+  const colorGreen = [0, 255, 0]; // Green
+  const colorBlue = [0, 0, 255]; // Blue
+
+  // Assign colors based on modularityClass range
+  if (modularityClass >= 1 && modularityClass <= 5) {
+    return colorRed; // Assign Red to modularityClass 1-5
+  } else if (modularityClass >= 6 && modularityClass <= 10) {
+    return colorGreen; // Assign Green to modularityClass 6-10
+  } else if (modularityClass >= 11 && modularityClass <= 15) {
+    return colorBlue; // Assign Blue to modularityClass 11-15
+  } else {
+    return [128, 128, 128]; // Return a default color (Gray) if out of range
+  }
 }
 
-function getSize(type) {
-  if (type.search('major') >= 0) {
-    return 100;
-  }
-  if (type.search('small') >= 0) {
-    return 30;
-  }
-  return 60;
+
+
+function getLineColor(modularityClass) {
+
+
+return color;
 }
+
+function getSize(eigenvectorCentrality) {
+  
+  const minSize = 1000;
+  const maxSize = 100000;
+  const clampedValue = Math.max(0, Math.min(1, eigenvectorCentrality));
+  console.log(clampedValue);
+  console.log(minSize + (maxSize - minSize) * clampedValue);
+return minSize + (maxSize - minSize) * clampedValue;
+
+{/*}
+const maxSize = 100;
+const minSize = 10;
+const radius = eigenvectorCentrality*10000;
+console.log(radius);
+return radius;
+*/}
+}
+
 
 function getTooltip({object}) {
+  // Assuming the object has a 'Venue_Name' field for venues
   return (
     object &&
-    `${object.country || object.abbrev || ''}
-    ${object.name.indexOf('0x') >= 0 ? '' : object.name}`
+    `${object.venue_country || ''}: ${object.Venue_Name || ''}`
   );
 }
-
 export default function App() {
-  const [venuesUrl, setVenuesUrl] = useState(''); // Corrected variable name
-  const [tripUrl, setTripUrl] = useState(''); // Assuming this remains unchanged
+  const [venuesUrl, setVenuesUrl] = useState('');
+  const [tripUrl, setTripUrl] = useState('');
   const [showURLInput, setShowURLInput] = useState(false);
-  const [airports, setAirports] = useState([]);
-  const [flightPaths, setFlightPaths] = useState([]);
+  const [venues, setVenues] = useState([]);
+  const [tripPaths, setTripPaths] = useState([]);
+  const [isLineLayerActive, setIsLineLayerActive] = useState(true);
 
-// Fetch venues data based on the venuesUrl
-useEffect(() => {
-  if (venuesUrl) {
-    fetch(venuesUrl)
-      .then(res => res.json())
-      .then(data => setAirports(data))
-      .catch(error => console.error('Error loading venues data:', error));
-  }
-}, [venuesUrl]);
+  useEffect(() => {
+    if (venuesUrl) {
+      fetch(venuesUrl)
+        .then(res => res.json())
+        .then(data => {
+          console.log('Venues Data:', data); // This will log the data to the console
+          setVenues(data);
+        })
+        .catch(error => console.error('Error loading venues data:', error));
+    }
+  }, [venuesUrl]);
 
-// Fetch flight paths data based on the tripUrl
-useEffect(() => {
-  if (tripUrl) {
-    fetch(tripUrl)
-      .then(res => res.json())
-      .then(data => setFlightPaths(data))
-      .catch(error => console.error('Error loading flight paths data:', error));
-  }
-}, [tripUrl]);
-const loadArtistTrips = () => {
-  // Assuming tripUrl is already set
-  fetch(tripUrl)
-    .then(res => res.json())
-    .then(data => setFlightPaths(data))
-    .catch(error => console.error('Error loading flight paths data:', error));
-};
-const setArtistTripsUrl = () => {
-  setTripUrl('https://raw.githubusercontent.com/Brandonf2022/touring_dashboard/Dev/borealis2023.json');
-};
-const handleDropdownChange = (e) => {
-  const value = e.target.value;
-  if (value === 'ENTER URL OF DATASET') {
-    setShowURLInput(true);
-  } else {
-    setShowURLInput(false);
-    // Assuming DATASET1 and DATASET2 are placeholders for actual URLs
-    // You'd replace these with your actual dataset URLs
-    setVenuesUrl(value === 'DATASET1' ? 'URL_FOR_DATASET1' : value === 'DATASET2' ? 'URL_FOR_DATASET2' : '');
-  }
-};
+  useEffect(() => {
+    if (tripUrl) {
+      fetch(tripUrl)
+        .then(res => res.json())
+        .then(data => setTripPaths(data))
+        .catch(error => console.error('Error loading trip data:', error));
+    }
+  }, [tripUrl]);
 
-  const layers = [
-    new ScatterplotLayer({
-      id: 'airports',
-      data: airports,
-      radiusScale: 20,
-      getPosition: d => d.coordinates,
-      getFillColor: [255, 140, 0],
-      getRadius: d => getSize(d.type),
-      pickable: true
-    }),
-    new LineLayer({
-      id: 'flight-paths',
-      data: flightPaths,
-      opacity: 1,
-      getSourcePosition: d => d.start,
-      getTargetPosition: d => d.end,
-      getColor,
-      getWidth: 3,
-      pickable: true
-    })
-  ];
+  // Handling dropdown changes for dataset selection
+  const handleDropdownChange = (e) => {
+    const value = e.target.value;
+    setShowURLInput(value === 'ENTER URL OF DATASET');
+    if (value === 'DATASET1') {
+      setVenuesUrl('./placeholder.json');
+    } else if (value === 'DATASET2') {
+      setVenuesUrl('./Borealis_Venues.json');
+    }
+  };
 
+
+// Assuming getColor function is correctly defined above, as shown in the previous message
+// Update the use of getColor in the layers to pass the modularityClass dynamically
+
+const layers = [
+  new ScatterplotLayer({
+    id: 'venues',
+    data: venues,
+    getPosition: d => [d.Long, d.Lat],
+    getFillColor: [70, 51, 150], // Assuming this doesn't depend on modularity_class
+    getRadius: d => getSize(d['Eigenvector Centrality']),
+    radiusScale: 1,
+    radiusMinPixels: 1,
+    radiusMaxPixels: 40,
+    opacity: 100,
+    lineWidthMinPixels: 2,
+    pickable: true
+  }),
+  isLineLayerActive ?
+  new LineLayer({
+    id: 'trips-paths',
+    data: tripPaths,
+    getSourcePosition: d => d.start,
+    getTargetPosition: d => d.end,
+    // Correctly pass modularity_class to getColor
+    getColor: d => getColor(d.modularity_class), // Fixed to correctly reference modularity_class
+    getWidth: 3,
+    pickable: true
+  }) :
+  new ArcLayer({
+    id: 'arc',
+    data: tripPaths,
+    getSourcePosition: d => d.start,
+    getTargetPosition: d => d.end,
+    // Ensure getSourceColor and getTargetColor correctly reference modularity_class
+    getSourceColor: d => getColor(d.modularity_class), // Fixed
+    getTargetColor: d => getColor(d.modularity_class), // Fixed
+    getWidth: d => getSize(d['Eigenvector Centrality'])
+  })
+];
+
+
+  
   return (
     <div>
-        <div style={{position: 'absolute', top: 0, left: 0, padding: '10px', backgroundColor: 'white', zIndex: 1}}>
-          <div>
-            <select onChange={handleDropdownChange}>
-            <option value="">Select Dataset</option>
-            <option value="DATASET1">DATASET1</option>
-            <option value="DATASET2">DATASET2</option>
-            <option value="ENTER URL OF DATASET">ENTER URL OF DATASET</option>
-          </select>
-          {showURLInput && (
-            <input
-              type="text"
-              placeholder="Enter venues dataset URL"
-              onChange={(e) => setVenuesUrl(e.target.value)}
-            />
-          )}
-        </div>
-      
-        <div>
-        <div>
-       <input
-        type="text"
-        placeholder="Enter artist trips dataset URL"
-        value={tripUrl}
-        onChange={(e) => setTripUrl(e.target.value)}
+      <div style={{position: 'absolute', top: 0, left: 0, padding: '10px', backgroundColor: 'white', zIndex: 1}}>
+        <select onChange={handleDropdownChange}>
+          <option value="">Select Dataset</option>
+          <option value="DATASET1">Placeholder</option>
+          <option value="DATASET2">Borealis Venues</option>
+          <option value="ENTER URL OF DATASET">Enter URL of Dataset</option>
+        </select>
+        {showURLInput && (
+          <input
+            type="text"
+            placeholder="Enter venues dataset URL"
+            onChange={(e) => setVenuesUrl(e.target.value)}
+          />
+        )}
+        <input
+          type="text"
+          placeholder="Enter artist trips dataset URL"
+          value={tripUrl}
+          onChange={(e) => setTripUrl(e.target.value)}
         />
-        <button onClick={() => setTripUrl(tripUrl)}>Load Artists' trips</button>
-        {/* New Button for setting the Artists' trips dataset URL */}
-        <button onClick={setArtistTripsUrl}>Borealis 2023 Dataset</button>
-       </div>
-
-         <button onClick={loadArtistTrips}>Load Artists' trips</button>
+        <div>
+        <label>Toggle Line/Arc Layer
+          <input
+            type="checkbox"
+            checked={isLineLayerActive}
+            onChange={() => setIsLineLayerActive(!isLineLayerActive)}
+              />
+          </label>
         </div>
-      </div>
+{/*        <div style={{ padding: '10px', backgroundColor: 'lightgrey', marginTop: '20px' }}>
+        <h3>Venues Data:</h3>
+        <ul>
+          {venues.map((venue, index) => (
+            <li key={index}>{JSON.stringify(venue)}</li>
+          ))}
+        </ul>
+        </div>
+          */}
+          
+          </div>
+        
       <DeckGL
         layers={layers}
         initialViewState={INITIAL_VIEW_STATE}
@@ -156,5 +207,5 @@ const handleDropdownChange = (e) => {
 }
 
 export function renderToDOM(container) {
-  createRoot(container).render(<App />);
+  createRoot(container).render(<App />); 
 }
