@@ -3,197 +3,72 @@ import { createRoot } from 'react-dom/client';
 import { Map } from 'react-map-gl';
 import maplibregl from 'maplibre-gl';
 import DeckGL from '@deck.gl/react';
-import { LineLayer, ScatterplotLayer, ArcLayer} from '@deck.gl/layers';
+import { ScatterplotLayer, LineLayer } from '@deck.gl/layers';
 
 const INITIAL_VIEW_STATE = {
   latitude: 63,
   longitude: 12,
   zoom: 4.5,
   maxZoom: 16,
-  pitch: 50,
+  pitch: 140,
   bearing: 0
 };
 
 const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
 
-function getColor(modularityClass) {
-  // Define three color codes
-  const colorRed = [255, 0, 0]; // Red
-  const colorGreen = [0, 255, 0]; // Green
-  const colorBlue = [0, 0, 255]; // Blue
-
-  // Assign colors based on modularityClass range
-  if (modularityClass >= 1 && modularityClass <= 5) {
-    return colorRed; // Assign Red to modularityClass 1-5
-  } else if (modularityClass >= 6 && modularityClass <= 10) {
-    return colorGreen; // Assign Green to modularityClass 6-10
-  } else if (modularityClass >= 11 && modularityClass <= 15) {
-    return colorBlue; // Assign Blue to modularityClass 11-15
-  } else {
-    return [128, 128, 128]; // Return a default color (Gray) if out of range
-  }
-}
-
-
-
-function getLineColor(modularityClass) {
-
-
-return color;
-}
-
-function getSize(eigenvectorCentrality) {
-  
-  const minSize = 1000;
-  const maxSize = 100000;
-  const clampedValue = Math.max(0, Math.min(1, eigenvectorCentrality));
-  console.log(clampedValue);
-  console.log(minSize + (maxSize - minSize) * clampedValue);
-return minSize + (maxSize - minSize) * clampedValue;
-
-{/*}
-const maxSize = 100;
-const minSize = 10;
-const radius = eigenvectorCentrality*10000;
-console.log(radius);
-return radius;
-*/}
-}
-
-
 function getTooltip({object}) {
-  // Assuming the object has a 'Venue_Name' field for venues
-  return (
-    object &&
-    `${object.venue_country || ''}: ${object.Venue_Name || ''}`
-  );
+  return object && `${object.name}\nShared Artists: ${object.weight}`;
 }
+
 export default function App() {
-  const [venuesUrl, setVenuesUrl] = useState('');
-  const [tripUrl, setTripUrl] = useState('');
-  const [showURLInput, setShowURLInput] = useState(false);
-  const [venues, setVenues] = useState([]);
-  const [tripPaths, setTripPaths] = useState([]);
-  const [isLineLayerActive, setIsLineLayerActive] = useState(true);
+  const [edgelistUrl, setEdgelistUrl] = useState('');
+  const [edgelist, setEdgelist] = useState([]);
 
   useEffect(() => {
-    if (venuesUrl) {
-      fetch(venuesUrl)
+    if (edgelistUrl) {
+      fetch(edgelistUrl)
         .then(res => res.json())
         .then(data => {
-          console.log('Venues Data:', data); // This will log the data to the console
-          setVenues(data);
+          console.log('Edgelist Data:', data);
+          setEdgelist(data);
         })
-        .catch(error => console.error('Error loading venues data:', error));
+        .catch(error => console.error('Error loading edgelist data:', error));
     }
-  }, [venuesUrl]);
+  }, [edgelistUrl]);
 
-  useEffect(() => {
-    if (tripUrl) {
-      fetch(tripUrl)
-        .then(res => res.json())
-        .then(data => setTripPaths(data))
-        .catch(error => console.error('Error loading trip data:', error));
-    }
-  }, [tripUrl]);
+  const layers = [
+    new LineLayer({
+      id: 'edges',
+      data: edgelist,
+      getSourcePosition: d => d.start,
+      getTargetPosition: d => d.end,
+      getColor: d => [255, 140, 0, Math.min(255, d.weight * 10)], // Orange color with opacity based on weight
+      getWidth: d => Math.log(d.weight) + 1, // Adjust line width based on weight
+      pickable: true
+    }),
+    new ScatterplotLayer({
+      id: 'venues',
+      data: edgelist,
+      getPosition: d => d.start, // Use start coordinates for venues
+      getFillColor: [0, 0, 255], // Blue color for venues
+      getRadius: 100,
+      radiusScale: 1,
+      radiusMinPixels: 1,
+      radiusMaxPixels: 10,
+      pickable: true
+    })
+  ];
 
-  // Handling dropdown changes for dataset selection
-  const handleDropdownChange = (e) => {
-    const value = e.target.value;
-    setShowURLInput(value === 'ENTER URL OF DATASET');
-    if (value === 'DATASET1') {
-      setVenuesUrl('./placeholder.json');
-    } else if (value === 'DATASET2') {
-      setVenuesUrl('./Borealis_Venues.json');
-    }
-  };
-
-
-// Assuming getColor function is correctly defined above, as shown in the previous message
-// Update the use of getColor in the layers to pass the modularityClass dynamically
-
-const layers = [
-  new ScatterplotLayer({
-    id: 'venues',
-    data: venues,
-    getPosition: d => [d.Long, d.Lat],
-    getFillColor: [70, 51, 150], // Assuming this doesn't depend on modularity_class
-    getRadius: d => getSize(d['Eigenvector Centrality']),
-    radiusScale: 1,
-    radiusMinPixels: 1,
-    radiusMaxPixels: 40,
-    opacity: 100,
-    lineWidthMinPixels: 2,
-    pickable: true
-  }),
-  isLineLayerActive ?
-  new LineLayer({
-    id: 'trips-paths',
-    data: tripPaths,
-    getSourcePosition: d => d.start,
-    getTargetPosition: d => d.end,
-    // Correctly pass modularity_class to getColor
-    getColor: d => getColor(d.modularity_class), // Fixed to correctly reference modularity_class
-    getWidth: 3,
-    pickable: true
-  }) :
-  new ArcLayer({
-    id: 'arc',
-    data: tripPaths,
-    getSourcePosition: d => d.start,
-    getTargetPosition: d => d.end,
-    // Ensure getSourceColor and getTargetColor correctly reference modularity_class
-    getSourceColor: d => getColor(d.modularity_class), // Fixed
-    getTargetColor: d => getColor(d.modularity_class), // Fixed
-    getWidth: d => getSize(d['Eigenvector Centrality'])
-  })
-];
-
-
-  
   return (
     <div>
       <div style={{position: 'absolute', top: 0, left: 0, padding: '10px', backgroundColor: 'white', zIndex: 1}}>
-        <select onChange={handleDropdownChange}>
-          <option value="">Select Dataset</option>
-          <option value="DATASET1">Placeholder</option>
-          <option value="DATASET2">Borealis Venues</option>
-          <option value="ENTER URL OF DATASET">Enter URL of Dataset</option>
-        </select>
-        {showURLInput && (
-          <input
-            type="text"
-            placeholder="Enter venues dataset URL"
-            onChange={(e) => setVenuesUrl(e.target.value)}
-          />
-        )}
         <input
           type="text"
-          placeholder="Enter artist trips dataset URL"
-          value={tripUrl}
-          onChange={(e) => setTripUrl(e.target.value)}
+          placeholder="Enter venue-venue edgelist JSON URL"
+          value={edgelistUrl}
+          onChange={(e) => setEdgelistUrl(e.target.value)}
         />
-        <div>
-        <label>Toggle Line/Arc Layer
-          <input
-            type="checkbox"
-            checked={isLineLayerActive}
-            onChange={() => setIsLineLayerActive(!isLineLayerActive)}
-              />
-          </label>
-        </div>
-{/*        <div style={{ padding: '10px', backgroundColor: 'lightgrey', marginTop: '20px' }}>
-        <h3>Venues Data:</h3>
-        <ul>
-          {venues.map((venue, index) => (
-            <li key={index}>{JSON.stringify(venue)}</li>
-          ))}
-        </ul>
-        </div>
-          */}
-          
-          </div>
-        
+      </div>
       <DeckGL
         layers={layers}
         initialViewState={INITIAL_VIEW_STATE}
@@ -207,5 +82,5 @@ const layers = [
 }
 
 export function renderToDOM(container) {
-  createRoot(container).render(<App />); 
+  createRoot(container).render(<App />);
 }
