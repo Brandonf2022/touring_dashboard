@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Map } from 'react-map-gl';
 import maplibregl from 'maplibre-gl';
@@ -16,41 +16,52 @@ const INITIAL_VIEW_STATE = {
 
 const MAP_STYLE = 'https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
 
-function getTooltip({object}) {
-  return object && `${object.name}\nShared Artists: ${object.weight}`;
-}
-
 export default function App() {
   const [edgelistUrl, setEdgelistUrl] = useState('');
   const [edgelist, setEdgelist] = useState([]);
+  const [dataLoaded, setDataLoaded] = useState(false);
+  const [countryFilter, setCountryFilter] = useState('');
 
   useEffect(() => {
     if (edgelistUrl) {
+      setDataLoaded(false);
       fetch(edgelistUrl)
         .then(res => res.json())
         .then(data => {
           console.log('Edgelist Data:', data);
           setEdgelist(data);
+          setDataLoaded(true);
         })
-        .catch(error => console.error('Error loading edgelist data:', error));
+        .catch(error => {
+          console.error('Error loading edgelist data:', error);
+          setDataLoaded(false);
+        });
     }
   }, [edgelistUrl]);
+
+  const filteredEdgelist = useMemo(() => {
+    if (!countryFilter) return edgelist;
+    return edgelist.filter(edge => 
+      edge.name.toLowerCase().includes(countryFilter.toLowerCase()) &&
+      !edge.name.toLowerCase().startsWith('[unspecified]')
+    );
+  }, [edgelist, countryFilter]);
 
   const layers = [
     new LineLayer({
       id: 'edges',
-      data: edgelist,
+      data: filteredEdgelist,
       getSourcePosition: d => d.start,
       getTargetPosition: d => d.end,
-      getColor: d => [255, 140, 0, Math.min(255, d.weight * 10)], // Orange color with opacity based on weight
-      getWidth: d => Math.log(d.weight) + 1, // Adjust line width based on weight
+      getColor: d => [255, 140, 0, Math.min(255, d.weight * 100)],
+      getWidth: d => Math.log(d.weight) + 4,
       pickable: true
     }),
     new ScatterplotLayer({
       id: 'venues',
-      data: edgelist,
-      getPosition: d => d.start, // Use start coordinates for venues
-      getFillColor: [0, 0, 255], // Blue color for venues
+      data: filteredEdgelist,
+      getPosition: d => d.start,
+      getFillColor: [0, 0, 255],
       getRadius: 100,
       radiusScale: 1,
       radiusMinPixels: 1,
@@ -68,12 +79,18 @@ export default function App() {
           value={edgelistUrl}
           onChange={(e) => setEdgelistUrl(e.target.value)}
         />
+        <br />
+        <input
+          type="text"
+          placeholder="Enter country to filter"
+          value={countryFilter}
+          onChange={(e) => setCountryFilter(e.target.value)}
+        />
       </div>
       <DeckGL
         layers={layers}
         initialViewState={INITIAL_VIEW_STATE}
         controller={true}
-        getTooltip={getTooltip}
       >
         <Map reuseMaps mapLib={maplibregl} mapStyle={MAP_STYLE} preventStyleDiffing={true} />
       </DeckGL>
