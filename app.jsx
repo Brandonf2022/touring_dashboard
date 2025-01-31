@@ -21,6 +21,7 @@ export default function App() {
   const [edgelist, setEdgelist] = useState([]);
   const [dataLoaded, setDataLoaded] = useState(false);
   const [countryFilter, setCountryFilter] = useState('');
+  const [hoverInfo, setHoverInfo] = useState(null);
 
   useEffect(() => {
     if (edgelistUrl) {
@@ -55,7 +56,8 @@ export default function App() {
       getTargetPosition: d => d.end,
       getColor: d => [255, 140, 0, Math.min(255, d.weight * 100)],
       getWidth: d => Math.log(d.weight) + 4,
-      pickable: true
+      pickable: true,
+      onHover: info => setHoverInfo(info)
     }),
     new ScatterplotLayer({
       id: 'venues',
@@ -92,6 +94,20 @@ export default function App() {
         initialViewState={INITIAL_VIEW_STATE}
         controller={true}
       >
+        {hoverInfo && hoverInfo.object && (
+          <div style={{
+            position: 'absolute',
+            left: hoverInfo.x,
+            top: hoverInfo.y,
+            padding: '8px',
+            background: 'white',
+            borderRadius: '4px',
+            boxShadow: '0 2px 4px rgba(0,0,0,0.3)',
+            zIndex: 1
+          }}>
+            {hoverInfo.object.name}
+          </div>
+        )}
         <Map reuseMaps mapLib={maplibregl} mapStyle={MAP_STYLE} preventStyleDiffing={true} />
       </DeckGL>
     </div>
